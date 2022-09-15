@@ -6,8 +6,8 @@ pool:
 
 variables:
   azureSubscriptionConnectionName: 'defaultAzure'
-  helmVersion: 3.1.2
-  AZURE_CONTAINER_REGISTRY_NAME: 'phoenixdev563acr'
+  helmVersion: 3.9.2
+  AZURE_CONTAINER_REGISTRY_NAME: 'phoenix563acr'
 
 stages:
 - stage: Build
