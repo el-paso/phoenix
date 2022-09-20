@@ -97,7 +97,7 @@ stages:
     displayName: run prod1
     environment: prod1
     variables:
-      AZURE_KEYVAULT_NAME: 'phoenixdev-711-vault'
+      AZURE_KEYVAULT_NAME: 'phoenix-894-vault'
     strategy:
      runOnce:
          deploy:
